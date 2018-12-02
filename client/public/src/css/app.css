@@ -1,0 +1,184 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+main, #messages-card {
+  height: 100%;
+  padding-bottom: 0;
+}
+#messages-card-container {
+  height: calc(100% - 25px);
+  padding-bottom: 0;
+}
+#messages-card {
+  margin-top: 15px;
+}
+.mdl-layout__header-row span {
+  margin-left: 15px;
+  margin-top: 17px;
+}
+.mdl-grid {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.mdl-layout__header-row {
+  padding: 0;
+  margin: 0 auto;
+}
+.mdl-card__supporting-text {
+  width: auto;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#messages {
+  overflow-y: auto;
+  margin-bottom: 10px;
+  height: calc(100% - 0px);
+}
+
+.mdl-card {
+  min-height: 0;
+}
+.mdl-card {
+  background: linear-gradient(white, #f9f9f9);
+  justify-content: space-between;
+}
+#image-form #submitImage {
+  width: auto;
+  padding: 0 6px 0 1px;
+  min-width: 0;
+}
+#image-form #submitImage .material-icons {
+  top: -1px;
+}
+@media screen and (max-width: 610px) {
+  header {
+    height: 113px;
+    padding-bottom: 80px !important;
+  }
+}
+.mdl-textfield__label:after {
+  background-color: #0288D1;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+  color: #0288D1;
+}
+
+.floating-button {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+}
+
+#create-post {
+  z-index: 1001;
+  position: fixed;
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  overflow-y: scroll;
+  bottom: 0;
+  top: 56px;
+  background: white;
+  text-align: center;
+  transform: translateY(100vh);
+  transition: transform 0.3s;
+}
+
+#create-post #location-loader {
+  display: none;
+}
+
+#create-post {
+  margin: 10px auto;
+  background: #8360c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-spinner {
+  margin: auto;
+}
+
+.floating-button {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+}
+
+.input-section {
+  display: block;
+  margin: 10px auto;
+}
+
+#mic:hover{
+  color: rgb(122, 0, 0);
+}
+.voice-box input[type=checkbox] {
+  display: none;
+}
+
+.voice-box input[type=checkbox]:checked+.label-color-voice {
+  color: white;
+}
+
+.label-color-voice {
+  color: rgb(184, 183, 183);
+  cursor: pointer;
+}
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,18 @@
+{
+    "name": "chatbot-zui",
+    "version": "1.0.0",
+    "description": "DevFest 2018",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -c-1",
+        "minify": "uglifyjs public/src/js/app.js -o public/src/js/app.min.js --compress --mangle",
+        "generate-sw": "workbox inject:manifest",
+        "build": "npm run minify && npm run generate-sw"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^0.10.0",
+        "uglify-js": "^3.0.28",
+        "workbox-cli": "^2.0.0"
+    }
+}

@@ -1,0 +1,17 @@
+## intent:confirmation.cancel
+- đừng bao giờ quên nó
+- không có gì hãy quên nó đi
+- không chỉ hủy
+- xin lỗi hủy bỏ
+- xem thường
+- không hủy hủy
+- quên
+- hủy mọi thứ
+- hủy bỏ cái đó
+- tôi muốn hủy
+- hủy nó đi
+- đã hủy
+- hủy ngay bây giờ
+- không muốn hủy
+- hủy sớm
+- sẽ bị hủy

@@ -1,0 +1,12 @@
+## intent:agent.sure
+- bạn có chắc không?
+- bạn có chắc chắn ngay bây giờ không?
+- bạn có chắc chắn ngày hôm nay?
+- bạn có chắc không?
+- bạn có chắc chắn tối nay?
+- bạn có tích cực không?
+- bạn có chắc chắn không?
+- bạn có hoàn toàn tích cực không?
+- bạn chắc chứ?
+- bạn có chắc không?
+- bạn có thực sự tích cực không?

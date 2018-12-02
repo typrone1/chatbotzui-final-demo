@@ -1,0 +1,37 @@
+## intent:appraisal.thank_you
+- bạn đã giúp rất nhiều cảm ơn bạn
+- đánh giá cao sự giúp đỡ của bạn
+- chúc mừng
+- cảm ơn bạn
+- cảm ơn
+- cảm ơn rất nhiều
+- tuyệt vời cảm ơn bạn
+- tuyệt vời cảm ơn bạn
+- cám ơn rất nhiều
+- cảm ơn bạn rất nhiều
+- Cảm ơn bạn đã giúp đỡ
+- cảm ơn sự giúp đỡ của bạn
+- cảm ơn bạn
+- Tôi đánh giá cao nó
+- Tôi cám ơn
+- cảm ơn bạn rằng sẽ là tất cả
+- cảm ơn cậu
+- nhờ tình yêu
+- cám ơn bạn tôi
+- xin cảm ơn
+- rất tốt cảm ơn bạn
+- khỏe cảm ơn
+- cảm ơn lần nữa
+- cám ơn bạn một lần nữa
+- tất cả cảm ơn bạn
+- Được rồi, cảm ơn
+- được rồi, cám ơn
+- không, cảm ơn tất cả các bạn
+- hoàn hảo cảm ơn bạn
+- tốt quá
+- vậy, cám ơn
+- xin cảm ơn
+- thnx
+- cảm ơn bạn
+- tqsm
+- ty

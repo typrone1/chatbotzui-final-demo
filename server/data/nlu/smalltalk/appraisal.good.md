@@ -1,0 +1,98 @@
+## intent:appraisal.good
+- thật tuyệt
+- mát mẻ
+- đó là tốt
+- vui khi nghe điều đó
+- đó là rất tốt đẹp của bạn
+- khủng khiếp
+- ngạc nhiên
+- thật tuyệt vời
+- hoàn hảo
+- Xuất sắc
+- rực rỡ
+- thật tuyệt
+- nó tốt
+- Thật tuyệt vời
+- khỏe
+- tốt
+- tốt đẹp
+- đó là tốt
+- rất tốt
+- kinh ngạc
+- tuyệt diệu
+- tuyệt quá
+- Tốt rất tốt
+- Điều đó rất tốt
+- thật sự tốt
+- nó ổn
+- nó tốt
+- Thật tuyệt vời
+- thật hoàn hảo
+- tốt hơn nhiều
+- không tệ
+- không tệ lắm
+- nó rất tốt
+- kỳ diệu
+- thật tuyệt
+- dễ chịu
+- khá tốt
+- rất đẹp
+- lộng lẫy
+- thẳng
+- siêu
+- Siêu tuyệt vời
+- ngọt
+- rất tốt
+- rất tốt
+- đó là tuyệt vời
+- đó là tốt đẹp
+- thật tuyệt vời
+- điều đó thật tuyệt vời
+- điều đó thật tuyệt
+- cái đó thật dễ thương
+- đó là khá tốt
+- thực sự là rất tốt đấy
+- đó là một ý kiến ​​hay
+- đó là một điều tốt
+- thật đáng kinh ngạc
+- thật tuyệt vời cảm ơn bạn
+- cái đó tốt hơn
+- Dễ thương đó
+- điều đó thật tuyệt
+- tốt hơn nhiều
+- bạn thật tốt
+- Không tệ
+- đó là hoàn hảo
+- Đó là khá tốt
+- đó là thực sự tốt
+- nó thật là tuyệt
+- bạn thật ngọt ngào
+- rất hay
+- điều đó thật tuyệt vời
+- điều này thật tuyệt
+- điều này tốt
+- điều đó thật tuyệt
+- rất đẹp
+- rất rồi
+- Tuyệt vời
+- Tôi rất vui khi biết điều đó
+- được rồi, tốt lắm
+- tốt cho bạn
+- tốt để biết
+- vui khi nghe nó
+- rất tốt
+- tốt quá
+- ngọt ngào của bạn
+- nó tốt
+- ồ
+- điều tốt
+- đó là tốt
+- thật tuyệt vời
+- được rồi
+- tốt rồi
+- không sao đâu
+- thật tuyệt
+- rất đẹp
+- nó rất tốt
+- đó là tốt
+- tốt cho bạn

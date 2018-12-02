@@ -1,0 +1,12 @@
+## intent:inform
+- ở [Hải Châu](location)
+- [Hải Châu](location)
+- quận [Hải Châu](location) thành phố đà nẵng
+- tại [Hải Châu](location)
+- [miễn phí](price)
+- [có tính phí](price)
+- [trả tiền](price)
+- ở [Ngũ Hành Sơn](location)
+- [Ngũ Hành Sơn](location)
+- quận [Ngũ Hành Sơn](location) thành phố đà nẵng
+- tại [Ngũ Hành Sơn](location)

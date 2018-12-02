@@ -1,0 +1,13 @@
+## intent:agent.bridge.cauthuanphuoc
+- cầu thuận phước
+- thuận phước
+- cầu thuận phước đà nẵng
+- cầu bên cạnh cầu nguyễn văn trỗi
+- cầu thuận phước ở đà nẵng
+- ý nghĩa cầu thuận phước
+- cầu thuận phước ban đêm
+- giới thiệu về cầu thuận phước đà nẵng
+- nhảy cầu thuận phước
+- nhảy cầu
+- nhảy cầu ở đâu?
+- cầu dài nhất đà nẵng

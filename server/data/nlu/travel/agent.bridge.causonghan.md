@@ -1,0 +1,15 @@
+## intent:agent.bridge.causonghan
+- cầu sông hàn
+- sông hàn
+- cầu sông hàn đà nẵng
+- cầu nằm giữa cầu rồng và cầu thuận phước
+- cầu sông hàn ở đà nẵng
+- ý nghĩa cầu sông hàn
+- cầu sông hàn ban đêm
+- giới thiệu về cầu sông hàn đà nẵng
+- thiết kế cầu sông hàn
+- ảnh cầu sông hàn
+- cầu xoay
+- cầu xoay vào ban đêm
+- cầu quay
+- cầu quay vào ban đêm

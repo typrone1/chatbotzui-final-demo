@@ -1,0 +1,25 @@
+## intent:dialog.sorry
+- xin lỗi
+- xin lỗi
+- Tôi xin lỗi
+- lấy làm tiếc
+- Tôi xin lôi
+- Tôi rât tiêc
+- lời xin lỗi của tôi
+- lời xin lỗi
+- xin lỗi tôi
+- lời xin lỗi
+- cớ
+- Tôi xin lỗi
+- ân xá
+- Tôi nói xin lỗi
+- Tôi thực sự xin lỗi
+- Tha thứ cho tôi
+- xin lỗi vì điều đó
+- xin lỗi về điều này
+- thật sự xin lỗi
+- rất tiếc
+- được rồi xin lỗi
+- Tôi muốn nói xin lỗi
+- Được rồi tôi xin lỗi
+- Được rồi tôi xin lỗi

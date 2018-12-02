@@ -1,0 +1,23 @@
+## intent:agent.right
+- đung
+- bạn đúng rồi
+- bạn chắc chắn đúng
+- Bạn không sai
+- bạn đang nói sự thật
+- Những gì bạn nói là đúng
+- thật
+- đúng rồi
+- Đúng rồi
+- đó là sự thật
+- đúng rồi
+- đúng rồi
+- đó là đúng
+- điều đó đúng
+- điều đó rất đúng
+- đúng rồi
+- đó là sự thật
+- bạn nói đúng
+- bạn rất đúng
+- bạn hoàn toàn đúng
+- bạn nói đúng về điều đó
+- Tôi biết điều đó đúng

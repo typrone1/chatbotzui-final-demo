@@ -1,0 +1,12 @@
+## intent:agent.whatisdanang
+- đà nẵng có
+- đà nẵng có gì
+- đà nẵng có gì chơi
+- đà nẵng có gì đẹp
+- đà nẵng có gì vui
+- đà nẵng có gì đặc biệt
+- đà nẵng có gì nổi tiếng
+- đi đà nẵng có gì vui
+- ở đà nẵng có những gì
+- đà nẵng có còn đáng sống?
+- đà nẵng có còn là thành phố đáng sống?

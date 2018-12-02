@@ -1,0 +1,36 @@
+## intent:greetings.bye
+- được rồi gặp lại sau
+- Hy vọng gặp lại bạn
+- tạm biệt bây giờ
+- cho đến thời điểm tiếp theo
+- Tôi phải đi
+- tạm biệt
+- Tạm biệt
+- gặp bạn
+- hẹn sớm gặp lại
+- tạm biệt
+- Tạm biệt ngủ ngon
+- Tạm biệt
+- tạm biệt. Hẹn gặp lại
+- Tạm biệt gặp bạn sớm
+- tạm biệt, bảo trọng nhé
+- Tôi nói tạm biệt
+- đừng bận tâm
+- bây giờ thì tạm biệt nhé
+- đó là tất cả lời tạm biệt
+- đó là lời tạm biệt
+- để tôi yên
+- đi ngủ
+- tạm biệt bây giờ
+- nói chuyện sau
+- bạn có thể đi ngay bây giờ
+- bị lạc
+- tạm biệt hẹn gặp lại
+- tạm biệt
+- xem ya
+- cảm ơn bye bye
+- Vâng, tạm biệt
+- okay cảm ơn bạn bye
+- hẹn gặp bạn vào ngày mai
+- được rồi tạm biệt
+- bạn

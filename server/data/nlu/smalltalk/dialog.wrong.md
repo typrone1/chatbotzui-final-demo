@@ -1,0 +1,18 @@
+## intent:dialog.wrong
+- Điều đó không đúng
+- đó không phải là những gì tôi hỏi
+- Sai rồi
+- sai rồi
+- nó không đúng
+- điều đó không đúng
+- nó sai
+- đó là không chính xác
+- không chính xác
+- không chính xác
+- bạn sai rồi
+- không phải
+- đừng nghĩ rằng bạn biết mọi thứ
+- bạn không biết gì cả
+- bạn hiểu sai
+- bạn hiểu lầm
+- u đã hiểu sai

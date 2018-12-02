@@ -1,0 +1,24 @@
+## intent:confirmation.yes
+- Vâng chính xác
+- được rồi ổn mà
+- Tôi đồng ý
+- được thôi
+- Tôi đoán
+- okey
+- ya
+- được rồi
+- vâng nó là
+- Vâng
+- yew
+- vâng
+- vâng tốt
+- tốt quá
+- ừ được rồi
+- được rồi
+- yup
+- YEAH
+- bạn thân
+- ờ được rồi
+- Ừ chắc chắn
+- được, tuyệt đấy
+- coool

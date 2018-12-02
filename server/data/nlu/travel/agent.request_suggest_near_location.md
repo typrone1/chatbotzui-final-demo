@@ -1,0 +1,12 @@
+## intent:agent.request_suggest_near_location
+- gợi ý
+- gợi ý điểm đến cho tôi
+- tôi không biết đi đâu
+- hãy gợi ý điểm đến thú vị ở đà nẵng
+- gợi ý điểm đến thú vị ở đà nẵng
+- gợi ý cho tôi
+- gợi ý cho tôi điểm đến thú vị ở đà nẵng
+- tôi muốn tìm điểm đến thú vị
+- gợi ý cho tôi một vài nơi vui chơi ở đà nẵng
+- tìm địa điểm ở đà nẵng
+- tôi muốn tìm địa điểm

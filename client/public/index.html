@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Learn how to use the Firebase platform on the Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Zui</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Friendly Chat">
+    <meta name="theme-color" content="#303F9F">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Friendly Chat">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+
+    <!-- Tile icon for Win8 -->
+    <meta name="msapplication-TileColor" content="#3372DF">
+    <meta name="msapplication-navbutton-color" content="#303F9F">
+
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+    <!-- App Styling -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="src/css/app.css">
+    <link rel="stylesheet" media="all" href="component/styles/setup.css">
+    <link rel="stylesheet" media="all" href="component/styles/says.css">
+    <link rel="stylesheet" media="all" href="component/styles/reply.css">
+    <link rel="stylesheet" media="all" href="component/styles/typing.css">
+    <link rel="stylesheet" media="all" href="component/styles/input.css">
+
+</head>
+<style>
+    .bubble-container {
+        height: 100%;
+        background: transparent;
+        background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    }
+    .mdl-card__supporting-text {
+        padding: 0;
+    }
+    .bubble-container .input-wrap textarea {
+        margin: 0;
+        border-radius: 4.8vh;
+        width: 55vw;
+        height: 4.8vh;
+        margin-left: 4vw;
+        margin-bottom: 2.8vh;
+    }
+    header.mdl-layout__header.mdl-color-text--white.mdl-color--light-blue-700.is-casting-shadow {
+        height: 0px;
+    }
+}
+</style>
+
+<body>
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+        <!-- Header section containing logo -->
+        <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+                <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+                    <h3><i class="material-icons">chat_bubble_outline</i> Chatbot Zui</h3>
+                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" id="share-image-button">
+                        <i class="material-icons">settings</i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" onclick="enableVoice();
+                        if ($('#enable-voice').html()=='volume_up') {
+                            $('#enable-voice').html('volume_off');
+                        } else {
+                            $('#enable-voice').html('volume_up');
+                        }"
+                        id="voice" name="voice">
+                        <i class="material-icons" id="enable-voice">volume_up</i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content mdl-color--grey-100">
+            <div id="messages-card-container" class="mdl-cell mdl-cell--12-col mdl-grid">
+
+                <!-- Messages container -->
+                <div id="messages-card" class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--6-col-desktop">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                        <div id="messages">
+                            <div id="chat"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="floating-button">
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored" id="mic" onclick="listen()">
+                    <i class="material-icons">mic</i>
+                </button>
+            </div>
+
+            <div id="confirmation-toast" aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
+                <div class="mdl-snackbar__text"></div>
+                <button type="button" class="mdl-snackbar__action"></button>
+            </div>
+            <div id="create-post">
+                <form onsubmit="return false;">
+                    <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="title">
+                        <label class="mdl-textfield__label" for="title" name="title">Tên của bạn</label>
+                    </div>
+                    <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="manual-location">
+                        <input class="mdl-textfield__input" type="text" id="location">
+                        <label class="mdl-textfield__label" for="location" name="location">Địa điểm</label>
+                    </div>
+                    <div class="input-section">
+                        <button class="mdl-button mdl-js-button mdl-button mdl-button--colored" type="button" id="location-btn">Lấy
+                            địa điểm hiện tại
+                        </button>
+                        <div class="mdl-spinner mdl-js-spinner is-active" id="location-loader"></div>
+                    </div>
+                    <br>
+                    <div class="input-section custom-select">
+                        <select>
+                            <option id="leminh " name="gender" value="leminh">Giọng miền nam: Lê Minh(male)</option>
+                            <option id="female" name="gender" selected="selected" value="female">Northern Accent: Thu Dung (female)</option>
+                            <option id="male" name="gender" value="male">Northern Accent: Cao Chung (male)</option>
+                            <option id="ngoclam" name="gender" value="ngoclam">Middle Accent: Ngọc Lam (female)</option>
+                            <option id="hatieumai" name="gender" value="hatieumai">Southern Accent: Hà Tiểu Mai (female)</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent"
+                            id="close-create-post-modal-btn">Lưu
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <audio id="openfpt-tts"></audio>
+    <!-- import the JavaScript file -->
+    <script src="component/Bubbles.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="src/js/chatbot.js"></script>
+<script>
+    var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
+        inputCallbackFn: function (o) {
+            respond(o.input);
+        }
+    }) // done setting up chat-bubble
+
+    var convo = {
+        ice: {
+            says: ["Chào bạn, vui lòng đặt câu hỏi !"],
+        }
+    }
+
+    // pass JSON to your function and you're done!
+    chatWindow.talk(convo)
+</script>
+<script defer src="src/js/app.js"></script>
+
+</html>

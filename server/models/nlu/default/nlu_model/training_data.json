@@ -1,0 +1,2061 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có gì"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có gì chơi"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có gì đẹp"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có gì vui"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có gì đặc biệt"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có gì nổi tiếng"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đi đà nẵng có gì vui"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "ở đà nẵng có những gì"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có còn đáng sống?"
+      },
+      {
+        "intent": "agent.whatisdanang",
+        "text": "đà nẵng có còn là thành phố đáng sống?"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "cầu trần thị lý"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "trần thị lý"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "cầu trần thị lý đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "cầu trần thị lý ở đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "ý nghĩa cầu trần thị lý"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "cầu trần thị lý ban đêm"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "giới thiệu về cầu trần thị lý đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "thiết kế cầu trần thị lý"
+      },
+      {
+        "intent": "agent.bridge.cautranthily",
+        "text": "ảnh cầu trần thị lý"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "cầu thuận phước"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "thuận phước"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "cầu thuận phước đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "cầu bên cạnh cầu nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "cầu thuận phước ở đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "ý nghĩa cầu thuận phước"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "cầu thuận phước ban đêm"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "giới thiệu về cầu thuận phước đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "nhảy cầu thuận phước"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "nhảy cầu"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "nhảy cầu ở đâu?"
+      },
+      {
+        "intent": "agent.bridge.cauthuanphuoc",
+        "text": "cầu dài nhất đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu sông hàn"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "sông hàn"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu sông hàn đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu nằm giữa cầu rồng và cầu thuận phước"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu sông hàn ở đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "ý nghĩa cầu sông hàn"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu sông hàn ban đêm"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "giới thiệu về cầu sông hàn đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "thiết kế cầu sông hàn"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "ảnh cầu sông hàn"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu xoay"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu xoay vào ban đêm"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu quay"
+      },
+      {
+        "intent": "agent.bridge.causonghan",
+        "text": "cầu quay vào ban đêm"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "cầu nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "cầu nguyễn văn trỗi đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "cầu bên cạnh cầu nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "cầu nguyễn văn trỗi ở đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "ý nghĩa cầu nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "cầu nguyễn văn trỗi ban đêm"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "giới thiệu về cầu nguyễn văn trỗi đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "thiết kế cầu nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "ảnh cầu nguyễn văn trỗi"
+      },
+      {
+        "intent": "agent.bridge.caunguyenvantroi",
+        "text": "cầu niêm phong"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "Hải Châu",
+            "entity": "location"
+          }
+        ],
+        "text": "ở Hải Châu"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Hải Châu",
+            "entity": "location"
+          }
+        ],
+        "text": "Hải Châu"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Hải Châu",
+            "entity": "location"
+          }
+        ],
+        "text": "quận Hải Châu thành phố đà nẵng"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "Hải Châu",
+            "entity": "location"
+          }
+        ],
+        "text": "tại Hải Châu"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "miễn phí",
+            "entity": "price"
+          }
+        ],
+        "text": "miễn phí"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "có tính phí",
+            "entity": "price"
+          }
+        ],
+        "text": "có tính phí"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "trả tiền",
+            "entity": "price"
+          }
+        ],
+        "text": "trả tiền"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "gợi ý"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "gợi ý điểm đến cho tôi"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "tôi không biết đi đâu"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "hãy gợi ý điểm đến thú vị ở đà nẵng"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "gợi ý điểm đến thú vị ở đà nẵng"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "gợi ý cho tôi"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "gợi ý cho tôi điểm đến thú vị ở đà nẵng"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "tôi muốn tìm điểm đến thú vị"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "gợi ý cho tôi một vài nơi vui chơi ở đà nẵng"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "tìm địa điểm ở đà nẵng"
+      },
+      {
+        "intent": "agent.request_suggest_near_location",
+        "text": "tôi muốn tìm địa điểm"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "rồng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu nằm giữa cầu rồng và cầu trần thị lý"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng ở đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "ý nghĩa cầu rồng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng ban đêm"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "giới thiệu về cầu rồng đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "thiết kế cầu rồng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu hình con rồng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu màu vàng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu phun lửa"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu phun nước"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu phun lửa và phun nước"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu phun lửa, phun nước"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng đà nẵng sơn trà đà nẵng"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng đà nẵng phun nước"
+      },
+      {
+        "intent": "agent.bridge.caurong",
+        "text": "cầu rồng đà nẵng phun lửa"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "cầu ở đã nẵng"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "đà nẵng có bao nhiêu cây cầu"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "đà nẵng có mấy cây cầu"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "có bao nhiều cây càu"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "có bao nhiêu cầu bắc qua sông hàn"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "sông hàn có bao nhiêu cây cầu"
+      },
+      {
+        "intent": "agent.danangcobaonhieucaycau",
+        "text": "cầu nổi tiếng ở đà nẵng"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "bạn đã giúp rất nhiều cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "đánh giá cao sự giúp đỡ của bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "chúc mừng"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn rất nhiều"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "tuyệt vời cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "tuyệt vời cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cám ơn rất nhiều"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn bạn rất nhiều"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "Cảm ơn bạn đã giúp đỡ"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn sự giúp đỡ của bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "Tôi đánh giá cao nó"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "Tôi cám ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn bạn rằng sẽ là tất cả"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn cậu"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "nhờ tình yêu"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cám ơn bạn tôi"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "xin cảm ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "rất tốt cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "khỏe cảm ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn lần nữa"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cám ơn bạn một lần nữa"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "tất cả cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "Được rồi, cảm ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "được rồi, cám ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "không, cảm ơn tất cả các bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "hoàn hảo cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "tốt quá"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "vậy, cám ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "xin cảm ơn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thnx"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "tqsm"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "ty"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "khá xấu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không đủ tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "chẳng đâu vào đâu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thật khủng khiếp"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "điều đó thật tồi tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Điều đó thật xấu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Thật tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Tôi sợ nó xấu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không tệ lắm"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thật khủng khiếp"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "xấu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "xấu quá"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "điều này quá tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "kinh khủng"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "kinh khủng"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "khủng khiếp"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thất bại"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Điều đó thật tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thật kinh khủng"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "đó là què"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "điều đó không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "đó là khủng khiếp"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "quá tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "điều này không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "quá tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "rất tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "gái hư"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không tốt lắm"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó rất tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Quá tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "đó chưa đủ tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "cũng quá xấu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "xấu rất xấu"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thật tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thực sự tồi tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó thực sự tồi tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "ý tưởng tồi"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "thật tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "điều đó không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó không tốt lắm"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không phải là người tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Ôi thật không tốt"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Không tốt lắm"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nhảm"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó rất là tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "nó quá tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "xấu thật tệ"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không ổn"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Không có gì"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Câm miệng"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "không có gì"
+      },
+      {
+        "intent": "appraisal.bad",
+        "text": "Ngu xuẩn"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc chắn ngay bây giờ không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc chắn ngày hôm nay?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc chắn tối nay?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có tích cực không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc chắn không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có hoàn toàn tích cực không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn chắc chứ?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có chắc không?"
+      },
+      {
+        "intent": "agent.sure",
+        "text": "bạn có thực sự tích cực không?"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đung"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn đúng rồi"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn chắc chắn đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "Bạn không sai"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn đang nói sự thật"
+      },
+      {
+        "intent": "agent.right",
+        "text": "Những gì bạn nói là đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "thật"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đúng rồi"
+      },
+      {
+        "intent": "agent.right",
+        "text": "Đúng rồi"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đó là sự thật"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đúng rồi"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đúng rồi"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đó là đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "điều đó đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "điều đó rất đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đúng rồi"
+      },
+      {
+        "intent": "agent.right",
+        "text": "đó là sự thật"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn nói đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn rất đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn hoàn toàn đúng"
+      },
+      {
+        "intent": "agent.right",
+        "text": "bạn nói đúng về điều đó"
+      },
+      {
+        "intent": "agent.right",
+        "text": "Tôi biết điều đó đúng"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "lol"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "xd"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ha ha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ahahah"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ahah lol"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "laughing out loud"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "LMAO"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "that's funny"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ah"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ah ah ah"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ahah"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ahaha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ahahaha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ha ha ha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "ha ha ha ha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "hah"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "haha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "haha funny"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "haha haha haha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "haha that's funny"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "haha very funny"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "hahaha"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "hahaha funny"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "hahaha very funny"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "he"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "hehe"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "hehehe"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "lmao"
+      },
+      {
+        "intent": "emotions.ha_ha",
+        "text": "joker"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "mát mẻ"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "vui khi nghe điều đó"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là rất tốt đẹp của bạn"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "khủng khiếp"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "ngạc nhiên"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "hoàn hảo"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Xuất sắc"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rực rỡ"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "khỏe"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt đẹp"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "kinh ngạc"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tuyệt diệu"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tuyệt quá"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Tốt rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Điều đó rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật sự tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó ổn"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật hoàn hảo"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt hơn nhiều"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "không tệ"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "không tệ lắm"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "kỳ diệu"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "dễ chịu"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "khá tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất đẹp"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "lộng lẫy"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thẳng"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "siêu"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Siêu tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "ngọt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là tốt đẹp"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều đó thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều đó thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "cái đó thật dễ thương"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là khá tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thực sự là rất tốt đấy"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là một ý kiến ​​hay"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là một điều tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật đáng kinh ngạc"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt vời cảm ơn bạn"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "cái đó tốt hơn"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Dễ thương đó"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều đó thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt hơn nhiều"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "bạn thật tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Không tệ"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là hoàn hảo"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Đó là khá tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là thực sự tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó thật là tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "bạn thật ngọt ngào"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất hay"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều đó thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều này thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều này tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều đó thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất đẹp"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất rồi"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "Tôi rất vui khi biết điều đó"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "được rồi, tốt lắm"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt cho bạn"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt để biết"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "vui khi nghe nó"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt quá"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "ngọt ngào của bạn"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "ồ"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "điều tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt vời"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "được rồi"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt rồi"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "không sao đâu"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "thật tuyệt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "rất đẹp"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "nó rất tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "đó là tốt"
+      },
+      {
+        "intent": "appraisal.good",
+        "text": "tốt cho bạn"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "lấy làm tiếc"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi xin lôi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi rât tiêc"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "lời xin lỗi của tôi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "lời xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "xin lỗi tôi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "lời xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "cớ"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "ân xá"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi nói xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi thực sự xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tha thứ cho tôi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "xin lỗi vì điều đó"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "xin lỗi về điều này"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "thật sự xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "rất tiếc"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "được rồi xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Tôi muốn nói xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Được rồi tôi xin lỗi"
+      },
+      {
+        "intent": "dialog.sorry",
+        "text": "Được rồi tôi xin lỗi"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "Điều đó không đúng"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "đó không phải là những gì tôi hỏi"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "Sai rồi"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "sai rồi"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "nó không đúng"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "điều đó không đúng"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "nó sai"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "đó là không chính xác"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "không chính xác"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "không chính xác"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "bạn sai rồi"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "không phải"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "đừng nghĩ rằng bạn biết mọi thứ"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "bạn không biết gì cả"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "bạn hiểu sai"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "bạn hiểu lầm"
+      },
+      {
+        "intent": "dialog.wrong",
+        "text": "u đã hiểu sai"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "đừng bao giờ quên nó"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "không có gì hãy quên nó đi"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "không chỉ hủy"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "xin lỗi hủy bỏ"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "xem thường"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "không hủy hủy"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "quên"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "hủy mọi thứ"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "hủy bỏ cái đó"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "tôi muốn hủy"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "hủy nó đi"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "đã hủy"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "hủy ngay bây giờ"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "không muốn hủy"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "hủy sớm"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "sẽ bị hủy"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "Vâng chính xác"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "được rồi ổn mà"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "Tôi đồng ý"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "được thôi"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "Tôi đoán"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "okey"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "ya"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "được rồi"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "vâng nó là"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "Vâng"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yew"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "vâng"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "vâng tốt"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "tốt quá"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "ừ được rồi"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "được rồi"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yup"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "YEAH"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "bạn thân"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "ờ được rồi"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "Ừ chắc chắn"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "được, tuyệt đấy"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "coool"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "được rồi gặp lại sau"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Hy vọng gặp lại bạn"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt bây giờ"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "cho đến thời điểm tiếp theo"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Tôi phải đi"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "gặp bạn"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "hẹn sớm gặp lại"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Tạm biệt ngủ ngon"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt. Hẹn gặp lại"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Tạm biệt gặp bạn sớm"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt, bảo trọng nhé"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Tôi nói tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "đừng bận tâm"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bây giờ thì tạm biệt nhé"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "đó là tất cả lời tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "đó là lời tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "để tôi yên"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "đi ngủ"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt bây giờ"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "nói chuyện sau"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bạn có thể đi ngay bây giờ"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bị lạc"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt hẹn gặp lại"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "xem ya"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "cảm ơn bye bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "Vâng, tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay cảm ơn bạn bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "hẹn gặp bạn vào ngày mai"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "được rồi tạm biệt"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "đừng"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không muốn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không cần"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "đừng đến"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không bao giờ giúp"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không bao giờ"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không cần thiết"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "tất nhiên là không"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không bao giờ"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không phải lúc này"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không chính xác"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "hoàn toàn không"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "đừng quên"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "đừng"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không, cám ơn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không muốn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "xin lỗi không"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không muốn bạn giúp"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "tôi không giúp bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "Tôi không muốn sự giúp đỡ của bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "nhận ra lời tạm biệt"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "tôi không muốn bạn giúp"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "tôi không cần sự giúp đỡ của bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "tôi không muốn bạn giúp"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "tôi không ổn với sự giúp đỡ của bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không muốn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "đừng"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "Tôi không cần gì từ bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "hãy nhớ điều đó"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "Tôi không cần sự giúp đỡ của bạn"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "Đừng khoe khoang"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "không"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

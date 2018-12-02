@@ -1,0 +1,208 @@
+%YAML 1.1
+---
+actions:
+- utter_agent.right
+- action_listen
+- utter_agent.sure
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.thank_you
+- utter_dialog.sorry
+- utter_dialog.wrong
+- utter_emotions.ha_ha
+- utter_greetings.bye
+- utter_confirmation.yes
+- utter_confirmation.cancel
+- utter_confirmation.no
+- utter_agent.whatisdanang
+- utter_agent.danangcobaonhieucaycau
+- utter_agent.bridge.cautranthily
+- utter_agent.bridge.caurong
+- utter_agent.bridge.causonghan
+- utter_agent.bridge.caunguyenvantroi
+- utter_agent.bridge.cauthuanphuoc
+- utter_ask_location
+- utter_ask_price
+- utter_suggest_location_haichau
+- utter_ask_moreupdates
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- price
+intents:
+- agent.right:
+    use_entities: true
+- agent.sure:
+    use_entities: true
+- appraisal.bad:
+    use_entities: true
+- appraisal.good:
+    use_entities: true
+- appraisal.thank_you:
+    use_entities: true
+- dialog.sorry:
+    use_entities: true
+- dialog.wrong:
+    use_entities: true
+- emotions.ha_ha:
+    use_entities: true
+- greetings.bye:
+    use_entities: true
+- confirmation.yes:
+    use_entities: true
+- confirmation.cancel:
+    use_entities: true
+- confirmation.no:
+    use_entities: true
+- agent.whatisdanang:
+    use_entities: true
+- agent.danangcobaonhieucaycau:
+    use_entities: true
+- agent.bridge.cautranthily:
+    use_entities: true
+- agent.bridge.caurong:
+    use_entities: true
+- agent.bridge.causonghan:
+    use_entities: true
+- agent.bridge.caunguyenvantroi:
+    use_entities: true
+- agent.bridge.cauthuanphuoc:
+    use_entities: true
+- agent.inform:
+    use_entities: true
+- agent.request_suggest_near_location:
+    use_entities: true
+slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  price:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_agent.bridge.caunguyenvantroi:
+  - image: https://duansunrisebaydanang.com.vn/wp-content/uploads/2017/12/81-600x377.jpg
+    text: Dù đã từng xuống cấp trầm trọng bởi hậu quả chiến tranh, nhưng vì là chứng
+      nhân lịch sử hào hùng và vì kiến trúc độc lạ nên ông Nguyễn Bá Thanh đã quyết
+      định giữ lại, cho tu sửa và cải tiến. Bây giờ, cầu Nguyễn Văn Trỗi được xem
+      như một “phố đi bộ” dành cho giới trẻ Đà Nẵng cũng như khách du lịch.
+  utter_agent.bridge.caurong:
+  - image: https://duansunrisebaydanang.com.vn/wp-content/uploads/2017/12/Du-lich-cau-rong-Da-Nang-chiec-cau-co-kha-nang-phun-lua-h4-600x386.jpg
+    text: ' Cầu Rồng có kiến trúc độc đáo khi được tạc theo hình dạng một con rồng
+      uốn lượn như đang bay. Vào thứ 7 và Chủ nhật hàng tuần, cầu Rồng sẽ tổ chức
+      phun lửa và phun nước từ 8h30 đến 9h để phục vụ khách du lịch.'
+  utter_agent.bridge.causonghan:
+  - image: https://duansunrisebaydanang.com.vn/wp-content/uploads/2017/12/du-lich-cau-quay-song-han-da-nang-2.jpg
+    text: Cái tên đầu tiên và không thể thiếu chính là cầu quay sông Hàn, một biểu
+      tượng thiêng liêng của Đà Nẵng. Cầu quay bắt đầu hoạt động từ năm 2000, với
+      11 nhịp cầu và mỗi nhịp dài 33m. Cho đến hiện tại, đây chính là cây cầu quay
+      duy nhất ở Việt Nam; vì thế nó luôn là niềm tự hào của người dân Đà Nẵng. Ai
+      đến Đà Nẵng cũng mong muốn một lần được tận mắt “mục sở thị” màn quay ấn tượng
+      của chiếc cầu này.
+  utter_agent.bridge.cauthuanphuoc:
+  - image: https://duansunrisebaydanang.com.vn/wp-content/uploads/2017/12/tp.jpg
+    text: Cầu Thuận Phước thể hiện hình ảnh cánh chim tung bay như muốn nói Đà Nẵng
+      sẽ ngày càng phát triển, rồi vươn ra biển lớn với bạn bè quốc tế. Thời điểm
+      lý tưởng nhất để ngắm cầu Thuận Phước cũng là buổi tối, khi những ánh đèn thắp
+      trên cầu rọi xuống dòng sông Hàn tạo nên một làn nước lung linh huyền ảo.
+  utter_agent.bridge.cautranthily:
+  - image: https://duansunrisebaydanang.com.vn/wp-content/uploads/2017/12/Tran-Thi-Ly03-768x432.jpg
+    text: Cầu Trần Thị Lý đẹp nhất là khi ngắm từ xa về đêm, khi những ánh đèn điện
+      trang trí trên cầu hợp thành một cánh buồm trên không trung lung linh rực rỡ.
+      Trên đỉnh tháp có sàn vọng cảnh để du khách ngắm nhìn toàn cảnh thành phố biển.
+      Chính vì những lý do này mà cầu Trần Thị Lý là một trong những cây cầu có sức
+      hút nhất ở Đà Nẵng.
+  utter_agent.danangcobaonhieucaycau:
+  - buttons:
+    - payload: Cầu sông Hàn
+      title: Cầu sông Hàn
+    - payload: Cầu Rồng
+      title: Cầu Rồng
+    - payload: Cầu Trần Thị Lý
+      title: Cầu Trần Thị Lý
+    - payload: Cầu Nguyễn Văn Trỗi
+      title: Cầu Nguyễn Văn Trỗi
+    - payload: Cầu Thuận Phước
+      title: Cầu Thuận Phước
+    text: Hiện tại có nẵm có 5 cây cầu lớn nhé !
+  utter_agent.right:
+  - text: Đó là công việc của tôi.
+  - text: Tất nhiên tôi.
+  utter_agent.sure:
+  - text: Vâng.
+  - text: Tất nhiên.
+  - text: Tích cực.
+  utter_agent.whatisdanang:
+  - image: http://dulichvietvui.com.vn/image/data/da-nang/cau-song-han-quay-may-gio/Cau-song-Han-quay-luc-may-gio-1.jpg
+    text: Đà Nẵng được xem là điểm trung chuyển quan trọng trên con đường di sản miền
+      Trung.
+  - image: http://file.vforum.vn/hinh/2016/08/tong-hop-nhung-hinh-anh-dep-ve-da-nang-33.jpg
+    text: Đà Nẵng là một thành phố biển với bãi biển dài hơn 60 km.
+  - image: https://photo-1-baomoi.zadn.vn/w700_r1/18/02/09/320/24906549/1_34684.jpg
+    text: Ngày 9/2, Sở Du lịch TP Đà Nẵng cho hay, Tạp chí du lịch danh tiếng Live
+      and Invest Overseas (LIO) vừa công bố danh sách 10 địa điểm tốt nhất để sống
+      ở nước ngoài 2018. Theo danh sách đó, TP.Đà Nẵng được chọn đại diện của Việt
+      Nam lọt vào danh sách này.
+  utter_appraisal.bad:
+  - text: Tôi xin lỗi. Xin vui lòng cho tôi biết nếu tôi có thể giúp bằng cách nào
+      đó.
+  - text: Tôi phải thiếu một số kiến thức. Tôi sẽ để nhà phát triển của tôi xem xét
+      điều này.
+  utter_appraisal.good:
+  - text: Tôi biết, phải không?
+  - text: Đã đồng ý!
+  - text: Tôi đồng ý!
+  - text: Rất vui vì bạn nghĩ vậy!
+  utter_appraisal.thank_you:
+  - text: Bất cứ lúc nào. Đó là những gì tôi làm ở đây.
+  - text: Đó là niềm vui của tôi để giúp đỡ.
+  utter_ask_location:
+  - text: Ở đâu?
+  - text: Bạn đang ở đâu?
+  - text: Bạn muốn tìm kiếm ở địa điểm nào?
+  - text: Bạn đứng ở đâu?
+  utter_ask_moreupdates:
+  - text: 'Nếu bạn muốn sửa đổi bất cứ điều gì khác, xin vui lòng cho tôi biết. Đây
+      là những gì tôi hiện có: {location} (loại hình du lịch: {price}).'
+  utter_ask_price:
+  - buttons:
+    - payload: miễn phí
+      title: miễn phí
+    - payload: trả tiền
+      title: trả tiền
+    text: Bạn thích địa điểm miễn phí hay có phí
+  - buttons:
+    - payload: miễn phí
+      title: miễn phí
+    - payload: trả tiền
+      title: trả tiền
+    text: Miễn phí hay trả tiền
+  utter_confirmation.yes:
+  - text: Tuyệt quá!
+  - text: Được rồi!
+  - text: Tốt!
+  utter_dialog.sorry:
+  - text: Không sao đâu. Đừng lo.
+  - text: Không có vấn đề gì. Tôi sẽ không hận thù đâu.
+  - text: Nó tuyệt thật.
+  - text: Được rồi. Tôi tha thứ cho anh.
+  utter_dialog.wrong:
+  - text: Xin lỗi nếu tôi hiểu bạn không chính xác.
+  - text: Tôi vẫn đang học. Tôi thỉnh thoảng có thể hiểu sai những điều đó.
+  - text: Xin lỗi về điều đó. Tôi vẫn đang học.
+  utter_emotions.ha_ha:
+  - text: Vui vì tôi có thể làm cho bạn cười.
+  - text: Rất vui khi bạn nghĩ tôi hài hước.
+  - text: Tôi thích nó khi mọi người cười.
+  - text: Tôi ước mình cũng có thể cười to.
+  utter_greetings.bye:
+  - text: Hẹn sớm gặp lại!
+  - text: Tạm biệt!
+  - text: Cho đến thời điểm tiếp theo!
+  - text: Tạm biệt.
+  utter_suggest_location_haichau:
+  - image: https://images.foody.vn/res/g65/642892/prof/s576x330/foody-mobile-m-han-jpg-440-636250980821230958.jpg
+    text: "Chợ Hàn. Chợ cao tầng trong nhà là nơi buôn bán tập nập với quầy ẩm thực,\
+      \ sạp bán quần áo, vải vóc và đồ gia dụng. \n Địa chỉ: 119 Trần Phú, Hải Châu\
+      \ 1, Hải Châu, Đà Nẵng 550000"
