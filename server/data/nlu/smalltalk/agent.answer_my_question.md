@@ -1,0 +1,21 @@
+## intent:agent.answer_my_question
+- Tôi muốn bạn trả lời tôi
+- câu trả lời
+- trả lời câu hỏi của tôi
+- trả lời tôi
+- cho tôi một câu trả lời
+- trả lời câu hỏi
+- bạn có thể trả lời câu hỏi của tôi không
+- nói cho tôi câu trả lời
+- trả lời đi
+- cho tôi câu trả lời
+- Tôi có một câu hỏi
+- Tôi muốn bạn trả lời câu hỏi của tôi
+- chỉ trả lời câu hỏi
+- bạn có thể trả lời tôi không
+- câu trả lời
+- bạn có thể trả lời câu hỏi cho tôi không
+- bạn có thể trả lời
+- trả lời câu hỏi
+- Tôi muốn câu trả lời ngay bây giờ
+- chỉ trả lời câu hỏi của tôi

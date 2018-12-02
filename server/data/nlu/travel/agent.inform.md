@@ -10,3 +10,10 @@
 - [Ngũ Hành Sơn](location)
 - quận [Ngũ Hành Sơn](location) thành phố đà nẵng
 - tại [Ngũ Hành Sơn](location)
+- tìm địa điểm ở gần đường [Võ Nguyên Giáp](street)
+- tìm địa điểm ở đường [Võ Nguyên Giáp](street)
+- gần đường [Võ Nguyên Giáp](street)
+- đường [Võ Nguyên Giáp](street)
+- bãi biển [Võ Nguyên Giáp](street)
+- bãi biển trên đường [Võ Nguyên Giáp](street)
+- tìm bãi biển trên đường [Võ Nguyên Giáp](street)

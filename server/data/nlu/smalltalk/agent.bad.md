@@ -1,0 +1,35 @@
+## intent:agent.bad
+- bạn không giúp tôi
+- bạn xấu
+- bạn rất tệ
+- bạn thực sự tồi tệ
+- bạn thật vô dụng
+- Bạn thật tồi tệ
+- bạn lãng phí thời gian
+- bạn thật kinh tởm
+- bạn đang què
+- bạn không tốt
+- bạn xấu
+- bạn thật tệ
+- bạn không được mát mẻ
+- bạn không tốt
+- bạn thật tệ
+- bạn thật vô dụng
+- bạn thật là tồi tệ
+- bạn hoàn toàn vô dụng
+- bạn rất tệ
+- bạn đang lãng phí
+- bạn là người xấu
+- bạn không tốt
+- bạn không giỏi lắm
+- bạn thật kinh khủng
+- bạn là người tồi tệ nhất
+- bạn là người tồi tệ nhất
+- bạn vô giá trị
+- bạn hút
+- bạn hút
+- Bạn đang nghiêm túc mindless và stupid
+- tại sao bạn lại quá què
+- bạn là kẻ thất bại
+- bạn thực sự là bot tồi tệ nhất
+- Tại sao anh lại què?

@@ -1,6 +1,6 @@
 {
-  "name": "Friendly Chat",
-  "short_name": "Friendly Chat",
+  "name": "Chatbot Zui",
+  "short_name": "Chatbot Zui",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait"

@@ -2,68 +2,69 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "location",
-        "price"
+        "street",
+        "price",
+        "location"
       ]
     },
-    "utter_appraisal.bad": {
-      "slots": []
-    },
-    "utter_ask_location": {
-      "slots": []
-    },
-    "utter_dialog.wrong": {
-      "slots": []
-    },
-    "utter_agent.bridge.causonghan": {
-      "slots": []
-    },
-    "utter_appraisal.good": {
-      "slots": []
-    },
-    "utter_greetings.bye": {
-      "slots": []
-    },
-    "utter_confirmation.cancel": {
-      "slots": []
-    },
-    "utter_agent.right": {
-      "slots": []
-    },
-    "utter_agent.danangcobaonhieucaycau": {
-      "slots": []
-    },
-    "utter_dialog.sorry": {
-      "slots": []
-    },
-    "utter_agent.whatisdanang": {
+    "utter_appraisal.thank_you": {
       "slots": []
     },
     "utter_agent.bridge.caunguyenvantroi": {
       "slots": []
     },
-    "utter_emotions.ha_ha": {
+    "utter_agent.bridge.causonghan": {
       "slots": []
     },
-    "utter_agent.sure": {
+    "utter_agent.trungtamhanhchinh": {
+      "slots": []
+    },
+    "utter_agent.right": {
+      "slots": []
+    },
+    "utter_confirmation.cancel": {
       "slots": []
     },
     "utter_confirmation.no": {
       "slots": []
     },
-    "utter_confirmation.yes": {
-      "slots": []
-    },
-    "utter_appraisal.thank_you": {
+    "utter_agent.whatisdanang": {
       "slots": []
     },
     "utter_agent.bridge.caurong": {
       "slots": []
     },
-    "utter_agent.bridge.cautranthily": {
+    "utter_dialog.wrong": {
+      "slots": []
+    },
+    "utter_agent.sure": {
+      "slots": []
+    },
+    "utter_dialog.sorry": {
+      "slots": []
+    },
+    "utter_agent.danangcobaonhieucaycau": {
+      "slots": []
+    },
+    "utter_appraisal.good": {
+      "slots": []
+    },
+    "utter_confirmation.yes": {
+      "slots": []
+    },
+    "utter_suggest_location_duongVoNguyenGiap": {
       "slots": []
     },
     "utter_agent.bridge.cauthuanphuoc": {
+      "slots": []
+    },
+    "utter_greetings.bye": {
+      "slots": []
+    },
+    "utter_agent.bridge.cautranthily": {
+      "slots": []
+    },
+    "utter_appraisal.bad": {
       "slots": []
     }
   },

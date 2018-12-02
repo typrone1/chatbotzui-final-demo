@@ -1,0 +1,22 @@
+## intent:agent.acquaintance
+- nói cho tôi biết về tính cách của bạn
+- tại sao bạn ở đây
+- nói về bạn
+- cho tôi biết một số thông tin về bạn
+- nói một số thứ về bản thân
+- Tôi muốn biết rõ hơn về bạn
+- Tôi muốn biết nhiều hơn về bạn
+- bạn là ai
+- nói cho tôi biết về bản thân
+- cho tôi biết về bạn
+- về bản thân bạn
+- mô tả bản thân
+- giới thiệu bản thân
+- Nói về bạn
+- bạn là gì
+- xác định chính mình
+- tính cách của bạn là gì
+- tất cả về bạn
+- bạn định làm gì?
+- mày là cái quái gì?
+- bạn có thể làm gì cho tôi?

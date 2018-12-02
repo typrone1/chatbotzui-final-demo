@@ -46,6 +46,62 @@
         "text": "đà nẵng có còn là thành phố đáng sống?"
       },
       {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "trung tâm hành chính"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "trung tâm hành chính đà nẵng"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà xoắn ốc"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà hình bắp"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà cao nhất"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà đường trần phú"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà cao nhất đà nẵng"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà hình xoắn ốc"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "tòa nhà hình quả bắp"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "thiết kế trung tâm hành chính"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "trung tâm hành chính thành phố đà nẵng"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "xoắn ốc"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "quả bắp"
+      },
+      {
+        "intent": "agent.trungtamhanhchinh",
+        "text": "nhà bắp"
+      },
+      {
         "intent": "agent.bridge.cautranthily",
         "text": "cầu trần thị lý"
       },
@@ -312,6 +368,138 @@
           }
         ],
         "text": "trả tiền"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 14,
+            "value": "Ngũ Hành Sơn",
+            "entity": "location"
+          }
+        ],
+        "text": "ở Ngũ Hành Sơn"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Ngũ Hành Sơn",
+            "entity": "location"
+          }
+        ],
+        "text": "Ngũ Hành Sơn"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 17,
+            "value": "Ngũ Hành Sơn",
+            "entity": "location"
+          }
+        ],
+        "text": "quận Ngũ Hành Sơn thành phố đà nẵng"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "Ngũ Hành Sơn",
+            "entity": "location"
+          }
+        ],
+        "text": "tại Ngũ Hành Sơn"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 39,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "tìm địa điểm ở gần đường Võ Nguyên Giáp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "tìm địa điểm ở đường Võ Nguyên Giáp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 24,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "gần đường Võ Nguyên Giáp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 20,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "đường Võ Nguyên Giáp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 23,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "bãi biển Võ Nguyên Giáp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "bãi biển trên đường Võ Nguyên Giáp"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "Võ Nguyên Giáp",
+            "entity": "street"
+          }
+        ],
+        "text": "tìm bãi biển trên đường Võ Nguyên Giáp"
       },
       {
         "intent": "agent.request_suggest_near_location",

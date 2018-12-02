@@ -10,6 +10,7 @@
     "intent_agent.request_suggest_near_location",
     "intent_agent.right",
     "intent_agent.sure",
+    "intent_agent.trungtamhanhchinh",
     "intent_agent.whatisdanang",
     "intent_appraisal.bad",
     "intent_appraisal.good",
@@ -23,8 +24,12 @@
     "intent_greetings.bye",
     "entity_location",
     "entity_price",
+    "entity_street",
+    "entity_address",
+    "slot_address_0",
     "slot_location_0",
     "slot_price_0",
+    "slot_street_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -50,6 +55,9 @@
     "prev_utter_ask_location",
     "prev_utter_ask_price",
     "prev_utter_suggest_location_haichau",
-    "prev_utter_ask_moreupdates"
+    "prev_utter_ask_moreupdates",
+    "prev_utter_suggest_location_nguhanhson_tratien",
+    "prev_utter_agent.trungtamhanhchinh",
+    "prev_utter_suggest_location_duongVoNguyenGiap"
   ]
 }

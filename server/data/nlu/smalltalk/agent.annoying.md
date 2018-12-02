@@ -1,0 +1,21 @@
+## intent:agent.annoying
+- bạn đang làm phiền tôi rất nhiều
+- bạn đang cực kỳ khó chịu
+- Tôi thấy bạn khó chịu
+- bạn đang gây phiền nhiễu
+- bạn đang rất khó chịu
+- làm thế nào gây phiền nhiễu bạn
+- bạn làm phiền tôi
+- bạn đang làm phiền tôi đấy
+- bạn đang khó chịu
+- bạn thật phiền phức
+- bạn quá khó chịu
+- bạn đang rất khó chịu
+- Tại sao bạn làm phiền tôi rất nhiều
+- Thật khó chịu!
+- Phiền thật đấy
+- Thật khó chịu
+- Nó chỉ gây phiền nhiễu
+- Thật khó chịu
+- Bạn thực sự làm phiền tôi
+- Bạn đang bắt đầu làm phiền tôi

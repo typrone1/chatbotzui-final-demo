@@ -1,0 +1,21 @@
+## intent:agent.age
+- cho tôi biết tuổi của bạn
+- bận bao nhiêu tuổi?
+- tuổi của bạn
+- tuổi của bạn
+- bạn bao nhiêu tuổi
+- Tôi muốn biết tuổi của bạn
+- nền tảng của bạn bao nhiêu tuổi
+- bạn bao nhiêu tuổi?
+- cho tôi biết bạn bao nhiêu tuổi
+- làm thế nào tôi có thể biết về tuổi của bạn
+- tôi muốn biết tuổi của bạn
+- bạn đã sống bao lâu rồi?
+- tuổi của bạn như thế nào?
+- Bạn đã tròn bao nhiêu tuổi?
+- Giờ bạn bao nhiêu tuổi?
+- bạn bao nhiêu tuổi?
+- Bạn sẽ quay bao nhiêu tuổi?
+- Bạn bao nhiêu tuổi?
+- Từ bao lâu bạn đã ở đây?
+- Bạn trông già nua

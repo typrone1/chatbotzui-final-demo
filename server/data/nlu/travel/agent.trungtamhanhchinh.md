@@ -1,0 +1,15 @@
+## intent:agent.trungtamhanhchinh
+- trung tâm hành chính
+- trung tâm hành chính đà nẵng
+- tòa nhà xoắn ốc
+- tòa nhà hình bắp
+- tòa nhà cao nhất
+- tòa nhà đường trần phú
+- tòa nhà cao nhất đà nẵng
+- tòa nhà hình xoắn ốc
+- tòa nhà hình quả bắp
+- thiết kế trung tâm hành chính
+- trung tâm hành chính thành phố đà nẵng
+- xoắn ốc
+- quả bắp
+- nhà bắp

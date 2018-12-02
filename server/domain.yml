@@ -23,11 +23,16 @@ actions:
 - utter_ask_price
 - utter_suggest_location_haichau
 - utter_ask_moreupdates
+- utter_suggest_location_nguhanhson_tratien
+- utter_agent.trungtamhanhchinh
+- utter_suggest_location_duongVoNguyenGiap
 config:
   store_entities_as_slots: true
 entities:
   - location
   - price
+  - street
+  - address
 forms: []
 intents:
 - agent.right
@@ -51,10 +56,15 @@ intents:
 - agent.bridge.cauthuanphuoc
 - agent.inform
 - agent.request_suggest_near_location
+- agent.trungtamhanhchinh
 slots: 
   location:
     type: text
   price:
+    type: text
+  street:
+    type: text
+  address:
     type: text
 templates:
   utter_agent.right:
@@ -159,5 +169,11 @@ templates:
     - text: "Chợ Hàn. Chợ cao tầng trong nhà là nơi buôn bán tập nập với quầy ẩm thực, sạp bán quần áo, vải vóc và đồ gia dụng. \n Địa chỉ: 119 Trần Phú, Hải Châu 1, Hải Châu, Đà Nẵng 550000"
       image: "https://images.foody.vn/res/g65/642892/prof/s576x330/foody-mobile-m-han-jpg-440-636250980821230958.jpg"
   utter_suggest_location_nguhanhson_tratien:
-    - text: "Vòng quay Mặt Trời Sun Wheel.\n "Vòng quay mặt trời - Sun Wheel" nằm trong một quần thể kiến trúc kết hợp giữa hiện đại và nét giao thoa văn hóa giữa Việt Nam và các nước Á Châu, được thiết kế bởi bàn tay tài hoa của kiến trúc sư Bill Bensley, người đã kiến tạo nên tuyệt tác thiên đường nghỉ dưỡng InterContinental Danang Sun Peninsula Resort."
+    - text: "Vòng quay Mặt Trời Sun Wheel. Vòng quay mặt trời - Sun Wheel nằm trong một quần thể kiến trúc kết hợp giữa hiện đại và nét giao thoa văn hóa giữa Việt Nam và các nước Á Châu, được thiết kế bởi bàn tay tài hoa của kiến trúc sư Bill Bensley, người đã kiến tạo nên tuyệt tác thiên đường nghỉ dưỡng InterContinental Danang Sun Peninsula Resort."
       image: "https://lh5.googleusercontent.com/-x5773JztL1M/U841Qk80byI/AAAAAAAAMxQ/jhJTl_N2CoA/s670/screenshot.png"
+  utter_agent.trungtamhanhchinh:
+    - text: "Nằm tại ngã tư Trần Phú – Lý Tự Trọng, hướng ra sông Hàn thơ mộng, Trung tâm Hành chính Đà Nẵng được coi là công trình điểm nhấn cho toàn thành phố. Có tổng vốn đầu tư lớn, sử dụng công nghệ thi công tiên tiến, thiết kế hiện đại, chế độ vận hành thông minh, đây cũng chính là công trình tiêu biểu đánh dấu khởi đầu mới của mô hình cung cấp dịch vụ công."
+      image: "http://pmcweb.vn/wp-content/uploads/Da-Nang-City-Hall-phoi-canh.jpg"
+  utter_suggest_location_duongVoNguyenGiap:
+    - text: "Biển Mỹ Khê là một trong những bãi biển đẹp nhất Việt Nam."
+      image: "https://mytourcdn.com/upload_images/Image/DA%20NANG/Bai%20bien%20My%20Khe/song%20bien%20on%20hoa.jpg"

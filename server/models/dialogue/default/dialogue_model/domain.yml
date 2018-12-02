@@ -25,11 +25,16 @@ actions:
 - utter_ask_price
 - utter_suggest_location_haichau
 - utter_ask_moreupdates
+- utter_suggest_location_nguhanhson_tratien
+- utter_agent.trungtamhanhchinh
+- utter_suggest_location_duongVoNguyenGiap
 config:
   store_entities_as_slots: true
 entities:
 - location
 - price
+- street
+- address
 intents:
 - agent.right:
     use_entities: true
@@ -73,11 +78,19 @@ intents:
     use_entities: true
 - agent.request_suggest_near_location:
     use_entities: true
+- agent.trungtamhanhchinh:
+    use_entities: true
 slots:
+  address:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   location:
     initial_value: null
     type: rasa_core.slots.TextSlot
   price:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  street:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
@@ -133,6 +146,13 @@ templates:
   - text: Vâng.
   - text: Tất nhiên.
   - text: Tích cực.
+  utter_agent.trungtamhanhchinh:
+  - image: http://pmcweb.vn/wp-content/uploads/Da-Nang-City-Hall-phoi-canh.jpg
+    text: Nằm tại ngã tư Trần Phú – Lý Tự Trọng, hướng ra sông Hàn thơ mộng, Trung
+      tâm Hành chính Đà Nẵng được coi là công trình điểm nhấn cho toàn thành phố.
+      Có tổng vốn đầu tư lớn, sử dụng công nghệ thi công tiên tiến, thiết kế hiện
+      đại, chế độ vận hành thông minh, đây cũng chính là công trình tiêu biểu đánh
+      dấu khởi đầu mới của mô hình cung cấp dịch vụ công.
   utter_agent.whatisdanang:
   - image: http://dulichvietvui.com.vn/image/data/da-nang/cau-song-han-quay-may-gio/Cau-song-Han-quay-luc-may-gio-1.jpg
     text: Đà Nẵng được xem là điểm trung chuyển quan trọng trên con đường di sản miền
@@ -201,8 +221,18 @@ templates:
   - text: Tạm biệt!
   - text: Cho đến thời điểm tiếp theo!
   - text: Tạm biệt.
+  utter_suggest_location_duongVoNguyenGiap:
+  - image: https://mytourcdn.com/upload_images/Image/DA%20NANG/Bai%20bien%20My%20Khe/song%20bien%20on%20hoa.jpg
+    text: Biển Mỹ Khê là một trong những bãi biển đẹp nhất Việt Nam.
   utter_suggest_location_haichau:
   - image: https://images.foody.vn/res/g65/642892/prof/s576x330/foody-mobile-m-han-jpg-440-636250980821230958.jpg
     text: "Chợ Hàn. Chợ cao tầng trong nhà là nơi buôn bán tập nập với quầy ẩm thực,\
       \ sạp bán quần áo, vải vóc và đồ gia dụng. \n Địa chỉ: 119 Trần Phú, Hải Châu\
       \ 1, Hải Châu, Đà Nẵng 550000"
+  utter_suggest_location_nguhanhson_tratien:
+  - image: https://lh5.googleusercontent.com/-x5773JztL1M/U841Qk80byI/AAAAAAAAMxQ/jhJTl_N2CoA/s670/screenshot.png
+    text: Vòng quay Mặt Trời Sun Wheel. Vòng quay mặt trời - Sun Wheel nằm trong một
+      quần thể kiến trúc kết hợp giữa hiện đại và nét giao thoa văn hóa giữa Việt
+      Nam và các nước Á Châu, được thiết kế bởi bàn tay tài hoa của kiến trúc sư Bill
+      Bensley, người đã kiến tạo nên tuyệt tác thiên đường nghỉ dưỡng InterContinental
+      Danang Sun Peninsula Resort.
